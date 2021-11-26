@@ -12,6 +12,12 @@
 }
 
 header, footer{
+    position: static;
+    overflow-y: hidden;
+}
+
+main{
+    overflow-y: scroll;
 }
 
 /* utilities */
