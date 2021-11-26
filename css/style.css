@@ -11,10 +11,11 @@
     margin: 0 auto;
 }
 
-header, footer{
-    position: static;
+html{
     overflow-y: hidden;
+    font-family: 'Lato', sans-serif;
 }
+
 
 main{
     overflow-y: scroll;
@@ -59,8 +60,8 @@ header{
 
 main{
     background-color: #000;
-    height: 100vh;
     width: 100%;
+    height: calc(100vh - 180px);
 }
 
 .user > .fas{
@@ -80,14 +81,39 @@ main{
     margin: 0 20px;
     padding-top: 20px;
     margin-bottom: 20px;
-    margin-left: 2px;    
+    margin-left: 2px;
+    font-family: 'Lato', sans-serif;    
 }
 
 /* footer */
 
 footer{
-    background-color: rgb(128,128,128);
+    background-color: #222222;
     height: 150px;
     width: 100%;
 }
 
+.menu{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 900;
+    font-size: 12px;
+    width: 33%;
+}
+
+.menu-center{
+  display: flex;
+}
+
+.mute .fas{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.mute{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 20px;
+}
